@@ -1,0 +1,268 @@
+html {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+body {
+  margin: 0;
+  font-family: Tahoma, Arial, Roboto, "Droid Sans", "Helvetica Neue", "Droid Sans Fallback", "Heiti SC", sans-self;
+  background: #e62129;
+}
+img {
+  display: block;
+  width: 100%;
+  user-select: none;
+  -webki-user-select: none;
+}
+p,
+input,
+ul,
+li,
+h3,
+textarea,
+table,
+tr,
+td,
+th {
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+table {
+  border-collapse: collapse;
+}
+input,
+textarea {
+  border: none;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+textarea {
+  resize: none;
+}
+a,
+input {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+.iWant {
+  margin-top: 52px;
+  color: #e62129;
+}
+.iWant .btn {
+  display: block;
+  line-height: 1.875rem;
+  text-align: center;
+  width: 7.925rem;
+  height: 1.875rem;
+  background: #fff000;
+  box-shadow: 0 10px 0 0 #fff582;
+  font-size: 26px;
+  border-radius: 20px;
+  margin: 0 auto;
+  font-weight: bold;
+}
+[data-dpr="1"] .iWant .btn {
+  font-size: 52px;
+}
+[data-dpr="2"] .iWant .btn {
+  font-size: 52px;
+}
+[data-dpr="2.5"] .iWant .btn {
+  font-size: 65px;
+}
+[data-dpr="2.75"] .iWant .btn {
+  font-size: 72px;
+}
+[data-dpr="3"] .iWant .btn {
+  font-size: 78px;
+}
+[data-dpr="4"] .iWant .btn {
+  font-size: 104px;
+}
+.all {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  padding-left: 0.65rem;
+  margin-top: 0.825rem;
+}
+.all:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.all .num {
+  float: left;
+  text-align: center;
+  color: #fff000;
+  position: relative;
+}
+.all .num:after {
+  content: "";
+  width: 1px;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: #fff000;
+}
+.all .num:nth-of-type(1),
+.all .num:nth-of-type(3) {
+  width: 4.5rem;
+}
+.all .num:nth-of-type(2) {
+  width: 5.425rem;
+}
+.all .num:nth-of-type(3):after {
+  background: none;
+}
+.all p {
+  font-size: 20px;
+  font-weight: bold;
+}
+[data-dpr="1"] .all p {
+  font-size: 40px;
+}
+[data-dpr="2"] .all p {
+  font-size: 40px;
+}
+[data-dpr="2.5"] .all p {
+  font-size: 50px;
+}
+[data-dpr="2.75"] .all p {
+  font-size: 55px;
+}
+[data-dpr="3"] .all p {
+  font-size: 60px;
+}
+[data-dpr="4"] .all p {
+  font-size: 80px;
+}
+.all span {
+  display: block;
+  margin-top: 20px;
+  font-size: 12px;
+}
+[data-dpr="1"] .all span {
+  font-size: 24px;
+}
+[data-dpr="2"] .all span {
+  font-size: 24px;
+}
+[data-dpr="2.5"] .all span {
+  font-size: 30px;
+}
+[data-dpr="2.75"] .all span {
+  font-size: 33px;
+}
+[data-dpr="3"] .all span {
+  font-size: 36px;
+}
+[data-dpr="4"] .all span {
+  font-size: 48px;
+}
+.search {
+  margin: 1.5rem 0 1.4rem 0;
+}
+.search .searchBox {
+  width: 12rem;
+  margin: 0 auto;
+  font-size: 0.6rem;
+}
+.search .searchBox:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.search input {
+  width: 8.7rem;
+  height: 1.4rem;
+  float: left;
+  border-radius: 10px 0 0 10px;
+  font-size: 0.6rem;
+  padding-left: 0.3rem;
+}
+.search span {
+  width: 2.8rem;
+  height: 1.4rem;
+  line-height: 1.4rem;
+  color: ;
+  display: block;
+  float: left;
+  background: #fff000;
+  text-align: center;
+  border-radius: 0px 10px 10px 0;
+  color: #e62129;
+}
+.topBtn {
+  text-align: center;
+}
+.topBtn a {
+  display: inline-block;
+  padding: 0 0.3rem;
+  line-height: 1.3rem;
+  background: rgba(255, 255, 255, 0.4);
+  margin: 0 0.2rem;
+  font-size: 0.8rem;
+  border-radius: 10px;
+  color: #fff;
+}
+.topBtn a.active {
+  background: rgba(255, 255, 255, 0.3);
+}
+.footer {
+  margin-top: 1.5rem;
+  padding-bottom: 2.5rem;
+  overflow: hidden;
+}
+#nav {
+  width: 100%;
+  height: 2.5rem;
+  background: #fefefe;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  z-index: 1;
+}
+#nav a {
+  font-size: 0.5rem;
+  float: left;
+  width: 25%;
+  height: 100%;
+  text-align: center;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  color: #383332;
+  padding-top: 1.5rem;
+  background-position: center 0.2rem;
+  background-repeat: no-repeat;
+  background-size: 1.325rem 1.05rem;
+  position: relative;
+}
+#nav a:after {
+  content: "";
+  width: 1px;
+  height: 100%;
+  background: #e5e8e5;
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+#nav a:nth-of-type(1) {
+  background-image: url(../images/nav01.jpg);
+}
+#nav a:nth-of-type(2) {
+  background-image: url(../images/nav02.jpg);
+}
+#nav a:nth-of-type(3) {
+  background-image: url(../images/nav03.jpg);
+}
+#nav a:nth-of-type(4) {
+  background-image: url(../images/nav04.jpg);
+}
+#nav a:nth-of-type(4):after {
+  width: 0;
+}

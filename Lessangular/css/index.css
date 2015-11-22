@@ -1,0 +1,72 @@
+
+/*这里是分割线~————————————————————————————————*/
+.list {
+  margin: 0 auto;
+  width: 12.5rem;
+}
+.list:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.list li {
+  width: 5.6rem;
+  height: 6.95rem;
+  position: relative;
+  border: 2px dashed #FFFFFF;
+  float: left;
+  margin-top: 1rem;
+}
+.list li img {
+  width: 5.6rem;
+  height: 6.95rem;
+}
+.list li:nth-of-type(2n+1) {
+  float: left;
+}
+.list li:nth-of-type(2n) {
+  float: right;
+}
+.list .number {
+  position: absolute;
+  right: 0.2rem;
+  top: 0.2rem;
+  width: 2.55rem;
+  height: 1.375rem;
+  background: url(../images/number_03.png) no-repeat center center;
+  background-size: contain;
+  line-height: 1.375rem;
+  color: #FFFFFF;
+  font-size: 0.5rem;
+  text-align: center;
+}
+.list .ticky {
+  width: 3rem;
+  height: 1rem;
+  position: absolute;
+  bottom: 0.3rem;
+  left: 0.2rem;
+  font-size: 0.34rem;
+  text-align: center;
+  color: #FFFFFF;
+}
+.list .ticky:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.list .ticky .l {
+  float: left;
+  width: 1.75rem;
+  height: 1rem;
+  background: #e62129;
+  line-height: 0.5rem;
+}
+.list .ticky .r {
+  width: 1.25rem;
+  height: 1rem;
+  float: left;
+  background: #fff000;
+  line-height: 1rem;
+  color: #e62129;
+}

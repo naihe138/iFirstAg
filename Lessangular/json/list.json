@@ -1,0 +1,72 @@
+[
+	{
+		"uNumber":"1",
+		"uName" : "何文林",
+		"uTicky" : "10",
+		"uImg": "images/01.jpg",
+		"id": "1"
+	},
+	{
+		"uNumber":"20",
+		"uName" : "李晓华",
+		"uTicky" : "12",
+		"uImg": "images/02.jpg",
+		"id": "2"
+	},
+	{
+		"uNumber":"12",
+		"uName" : "郭靖",
+		"uTicky" : "141",
+		"uImg": "images/03.jpg",
+		"id": "3"
+	},
+	{
+		"uNumber":"2",
+		"uName" : "黄蓉",
+		"uTicky" : "58",
+		"uImg": "images/04.jpg",
+		"id": "4"
+	},
+	{
+		"uNumber":"68",
+		"uName" : "张小凡",
+		"uTicky" : "145",
+		"uImg": "images/05.jpg",
+		"id": "5"
+	},
+	{
+		"uNumber":"24",
+		"uName" : "陆雪琪",
+		"uTicky" : "32",
+		"uImg": "images/06.jpg",
+		"id": "6"
+	},
+	{
+		"uNumber":"31",
+		"uName" : "碧瑶",
+		"uTicky" : "111",
+		"uImg": "images/07.jpg",
+		"id": "7"
+	},
+	{
+		"uNumber":"167",
+		"uName" : "张子凡",
+		"uTicky" : "14",
+		"uImg": "images/08.jpg",
+		"id": "8"
+	},
+	{
+		"uNumber":"74",
+		"uName" : "阿雪",
+		"uTicky" : "14",
+		"uImg": "images/09.jpg",
+		"id": "9"
+	},
+	{
+		"uNumber":"4",
+		"uName" : "张无忌",
+		"uTicky" : "47",
+		"uImg": "images/10.jpg",
+		"id": "10"
+	}
+]

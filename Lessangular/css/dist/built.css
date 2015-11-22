@@ -1,0 +1,578 @@
+html {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+body {
+  margin: 0;
+  font-family: Tahoma, Arial, Roboto, "Droid Sans", "Helvetica Neue", "Droid Sans Fallback", "Heiti SC", sans-self;
+  background: #e62129;
+}
+img {
+  display: block;
+  width: 100%;
+  user-select: none;
+  -webki-user-select: none;
+}
+p,
+input,
+ul,
+li,
+h3,
+textarea,
+table,
+tr,
+td,
+th {
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+table {
+  border-collapse: collapse;
+}
+input,
+textarea {
+  border: none;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+textarea {
+  resize: none;
+}
+a,
+input {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+.iWant {
+  margin-top: 52px;
+  color: #e62129;
+}
+.iWant .btn {
+  display: block;
+  line-height: 1.875rem;
+  text-align: center;
+  width: 7.925rem;
+  height: 1.875rem;
+  background: #fff000;
+  box-shadow: 0 10px 0 0 #fff582;
+  font-size: 26px;
+  border-radius: 20px;
+  margin: 0 auto;
+  font-weight: bold;
+}
+[data-dpr="1"] .iWant .btn {
+  font-size: 52px;
+}
+[data-dpr="2"] .iWant .btn {
+  font-size: 52px;
+}
+[data-dpr="2.5"] .iWant .btn {
+  font-size: 65px;
+}
+[data-dpr="2.75"] .iWant .btn {
+  font-size: 72px;
+}
+[data-dpr="3"] .iWant .btn {
+  font-size: 78px;
+}
+[data-dpr="4"] .iWant .btn {
+  font-size: 104px;
+}
+.all {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  padding-left: 0.65rem;
+  margin-top: 0.825rem;
+}
+.all:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.all .num {
+  float: left;
+  text-align: center;
+  color: #fff000;
+  position: relative;
+}
+.all .num:after {
+  content: "";
+  width: 1px;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: #fff000;
+}
+.all .num:nth-of-type(1),
+.all .num:nth-of-type(3) {
+  width: 4.5rem;
+}
+.all .num:nth-of-type(2) {
+  width: 5.425rem;
+}
+.all .num:nth-of-type(3):after {
+  background: none;
+}
+.all p {
+  font-size: 20px;
+  font-weight: bold;
+}
+[data-dpr="1"] .all p {
+  font-size: 40px;
+}
+[data-dpr="2"] .all p {
+  font-size: 40px;
+}
+[data-dpr="2.5"] .all p {
+  font-size: 50px;
+}
+[data-dpr="2.75"] .all p {
+  font-size: 55px;
+}
+[data-dpr="3"] .all p {
+  font-size: 60px;
+}
+[data-dpr="4"] .all p {
+  font-size: 80px;
+}
+.all span {
+  display: block;
+  margin-top: 20px;
+  font-size: 12px;
+}
+[data-dpr="1"] .all span {
+  font-size: 24px;
+}
+[data-dpr="2"] .all span {
+  font-size: 24px;
+}
+[data-dpr="2.5"] .all span {
+  font-size: 30px;
+}
+[data-dpr="2.75"] .all span {
+  font-size: 33px;
+}
+[data-dpr="3"] .all span {
+  font-size: 36px;
+}
+[data-dpr="4"] .all span {
+  font-size: 48px;
+}
+.search {
+  margin: 1.5rem 0 1.4rem 0;
+}
+.search .searchBox {
+  width: 12rem;
+  margin: 0 auto;
+  font-size: 0.6rem;
+}
+.search .searchBox:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.search input {
+  width: 8.7rem;
+  height: 1.4rem;
+  float: left;
+  border-radius: 10px 0 0 10px;
+  font-size: 0.6rem;
+  padding-left: 0.3rem;
+}
+.search span {
+  width: 2.8rem;
+  height: 1.4rem;
+  line-height: 1.4rem;
+  color: ;
+  display: block;
+  float: left;
+  background: #fff000;
+  text-align: center;
+  border-radius: 0px 10px 10px 0;
+  color: #e62129;
+}
+.topBtn {
+  text-align: center;
+}
+.topBtn a {
+  display: inline-block;
+  padding: 0 0.3rem;
+  line-height: 1.3rem;
+  background: rgba(255, 255, 255, 0.4);
+  margin: 0 0.2rem;
+  font-size: 0.8rem;
+  border-radius: 10px;
+  color: #fff;
+}
+.topBtn a.active {
+  background: rgba(255, 255, 255, 0.3);
+}
+.footer {
+  margin-top: 1.5rem;
+  padding-bottom: 2.5rem;
+  overflow: hidden;
+}
+#nav {
+  width: 100%;
+  height: 2.5rem;
+  background: #fefefe;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  z-index: 1;
+}
+#nav a {
+  font-size: 0.5rem;
+  float: left;
+  width: 25%;
+  height: 100%;
+  text-align: center;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  color: #383332;
+  padding-top: 1.5rem;
+  background-position: center 0.2rem;
+  background-repeat: no-repeat;
+  background-size: 1.325rem 1.05rem;
+  position: relative;
+}
+#nav a:after {
+  content: "";
+  width: 1px;
+  height: 100%;
+  background: #e5e8e5;
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+#nav a:nth-of-type(1) {
+  background-image: url(../images/nav01.jpg);
+}
+#nav a:nth-of-type(2) {
+  background-image: url(../images/nav02.jpg);
+}
+#nav a:nth-of-type(3) {
+  background-image: url(../images/nav03.jpg);
+}
+#nav a:nth-of-type(4) {
+  background-image: url(../images/nav04.jpg);
+}
+#nav a:nth-of-type(4):after {
+  width: 0;
+}
+;
+.content {
+  width: 13.125rem;
+  margin: 1.5rem auto;
+  padding: 0.5rem;
+  position: relative;
+}
+.content h3 {
+  text-align: center;
+  font-size: 1.25rem;
+  color: #fffcdb;
+  padding-bottom: 0.5rem;
+}
+.content .form {
+  color: #FFFFFF;
+  margin-top: 0.5rem;
+  overflow: hidden;
+}
+.content .form:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.content .form .l {
+  font-size: 0.8rem;
+  float: left;
+  width: 4.5rem;
+  height: 1.2rem;
+  text-align: center;
+  font-weight: bold;
+}
+.content .form .r {
+  float: left;
+}
+.content .form input,
+.content .form textarea {
+  display: block;
+  width: 7.5rem;
+  height: 1.2rem;
+  font-size: 0.6rem;
+  border-radius: 10px;
+  padding-left: 0.25rem;
+}
+.content .form .upl {
+  height: 2.6rem;
+}
+.content .form .upl span:nth-of-type(1) {
+  color: #fff000;
+}
+.content .form .upl span:nth-of-type(2) {
+  font-weight: normal;
+  font-size: 0.6rem;
+}
+.content .form .upr {
+  overflow: hidden;
+  width: 8rem;
+  height: ;
+}
+.content .form .upr:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.content .form .upr img {
+  float: left;
+  width: 3.15rem;
+  height: 3.15rem;
+  margin: 0 0 0.5rem 0.5rem;
+  border: 2px dashed #FFFFFF;
+}
+.content .form textarea {
+  height: 3rem;
+  padding: 0.25rem;
+}
+.content .tips {
+  text-align: center;
+  font-size: 9px;
+  color: #FFFFFF;
+  margin: 1rem 0;
+}
+[data-dpr="1"] .content .tips {
+  font-size: 18px;
+}
+[data-dpr="2"] .content .tips {
+  font-size: 18px;
+}
+[data-dpr="2.5"] .content .tips {
+  font-size: 23px;
+}
+[data-dpr="2.75"] .content .tips {
+  font-size: 25px;
+}
+[data-dpr="3"] .content .tips {
+  font-size: 27px;
+}
+[data-dpr="4"] .content .tips {
+  font-size: 36px;
+}
+;
+/*这里是分割线~————————————————————————————————*/
+.content {
+  width: 13.125rem;
+  margin: 1.5rem auto;
+  background: #fffcdb;
+  padding: 0.5rem;
+  position: relative;
+  border: 2px dashed #FFFFFF;
+}
+.content .title {
+  position: absolute;
+  width: 5.95rem;
+  height: 3.15rem;
+  background: url(../images/number_03.png) no-repeat;
+  background-size: contain;
+  color: #FFFFFF;
+  left: 4.4rem;
+  top: -1.2rem;
+  text-align: center;
+  font-size: 0.8rem;
+  line-height: 1rem;
+  padding-top: 0.3rem;
+}
+.content .pageDetail {
+  margin-top: 2rem;
+  font-size: 0.6rem;
+  text-align: center;
+}
+.content .pageDetail p {
+  white-space: normal;
+  width: 100%;
+}
+.content img {
+  margin: 0.5rem 0;
+}
+;
+/*这里是分割线~————————————————————————————————*/
+#list {
+  margin: 0 auto;
+  width: 12.5rem;
+}
+.list:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.list li {
+  width: 5.6rem;
+  height: 6.95rem;
+  position: relative;
+  border: 2px dashed #FFFFFF;
+  float: left;
+  margin-top: 1rem;
+}
+.list li img {
+  width: 5.6rem;
+  height: 6.95rem;
+}
+.list li:nth-of-type(2n+1) {
+  float: left;
+}
+.list li:nth-of-type(2n) {
+  float: right;
+}
+.list .number {
+  position: absolute;
+  right: 0.2rem;
+  top: 0.2rem;
+  width: 2.55rem;
+  height: 1.375rem;
+  background: url(../images/number_03.png) no-repeat center center;
+  background-size: contain;
+  line-height: 1.375rem;
+  color: #FFFFFF;
+  font-size: 0.5rem;
+  text-align: center;
+}
+.list .ticky {
+  width: 3rem;
+  height: 1rem;
+  position: absolute;
+  bottom: 0.3rem;
+  left: 0.2rem;
+  font-size: 0.34rem;
+  text-align: center;
+  color: #FFFFFF;
+}
+.list .ticky:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.list .ticky .l {
+  float: left;
+  width: 1.75rem;
+  height: 1rem;
+  background: #e62129;
+  line-height: 0.5rem;
+}
+.list .ticky .r {
+  width: 1.25rem;
+  height: 1rem;
+  float: left;
+  background: #fff000;
+  line-height: 1rem;
+  color: #e62129;
+}
+;
+/*这里是分割线~————————————————————————————————*/
+.page img {
+  margin: 1rem auto;
+  width: 5.75rem;
+}
+.page .prize {
+  font-weight: bold;
+  color: #FFFFFF;
+  margin-bottom: 0.5rem;
+  line-height: 0.8rem;
+  font-size: 0.6rem;
+}
+.page .prize p {
+  width: 11rem;
+  margin: 0 auto;
+}
+.page .prize p:nth-of-type(2) {
+  color: #fff000;
+  text-indent: 1em;
+}
+.prizeTips {
+  width: 14rem;
+  margin: 1rem auto;
+  border: 1px solid #fff000;
+  height: 1.8rem;
+  position: relative;
+  border-radius: 1.4rem;
+  padding-top: 0.8rem;
+}
+.prizeTips h3 {
+  color: #fff000;
+  font-size: 0.55rem;
+  background: #e62129;
+  width: 12rem;
+  position: absolute;
+  left: 1.2rem;
+  top: -0.5rem;
+  line-height: 1rem;
+  text-align: center;
+}
+.prizeTips p {
+  font-size: 0.5rem;
+  color: #FFFFFF;
+  padding-left: 2rem;
+}
+.detail {
+  width: 12.65rem;
+  margin: 0 auto;
+}
+.detail h3 {
+  text-align: center;
+  color: #fff000;
+  font-size: 0.9rem;
+  line-height: 1.8rem;
+  margin-bottom: 0.4rem;
+}
+.detail div {
+  width: 100%;
+  font-size: 0.55rem;
+  color: #FFFFFF;
+  line-height: 0.8rem;
+  margin-bottom: 0.5rem;
+}
+.detail div:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.detail span {
+  display: block;
+  float: left;
+  width: 0.8rem;
+}
+.detail p {
+  float: left;
+  width: 11rem;
+}
+;
+/*这里是分割线~————————————————————————————————*/
+.topBox {
+  width: 13.75rem;
+  margin: 1rem auto;
+  text-align: center;
+  background: #fffcdb;
+  border: 2px dashed #FFFFFF;
+  padding: 0.5rem;
+}
+.topBox table {
+  width: 100%;
+}
+.topBox th {
+  font-size: 0.7rem;
+}
+.topBox tr {
+  border-bottom: 1px solid black;
+  padding: 0.5rem 0;
+  line-height: 1.4rem;
+}
+.topBox td {
+  font-size: 0.6rem;
+  text-align: center;
+  color: #383332;
+}

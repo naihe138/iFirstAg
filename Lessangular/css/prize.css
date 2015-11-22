@@ -1,0 +1,78 @@
+
+/*这里是分割线~————————————————————————————————*/
+.page img {
+  margin: 1rem auto;
+  width: 5.75rem;
+}
+.page .prize {
+  font-weight: bold;
+  color: #FFFFFF;
+  margin-bottom: 0.5rem;
+  line-height: 0.8rem;
+  font-size: 0.6rem;
+}
+.page .prize p {
+  width: 11rem;
+  margin: 0 auto;
+}
+.page .prize p:nth-of-type(2) {
+  color: #fff000;
+  text-indent: 1em;
+}
+.prizeTips {
+  width: 14rem;
+  margin: 1rem auto;
+  border: 1px solid #fff000;
+  height: 1.8rem;
+  position: relative;
+  border-radius: 1.4rem;
+  padding-top: 0.8rem;
+}
+.prizeTips h3 {
+  color: #fff000;
+  font-size: 0.55rem;
+  background: #e62129;
+  width: 12rem;
+  position: absolute;
+  left: 1.2rem;
+  top: -0.5rem;
+  line-height: 1rem;
+  text-align: center;
+}
+.prizeTips p {
+  font-size: 0.5rem;
+  color: #FFFFFF;
+  padding-left: 2rem;
+}
+.detail {
+  width: 12.65rem;
+  margin: 0 auto;
+}
+.detail h3 {
+  text-align: center;
+  color: #fff000;
+  font-size: 0.9rem;
+  line-height: 1.8rem;
+  margin-bottom: 0.4rem;
+}
+.detail div {
+  width: 100%;
+  font-size: 0.55rem;
+  color: #FFFFFF;
+  line-height: 0.8rem;
+  margin-bottom: 0.5rem;
+}
+.detail div:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.detail span {
+  display: block;
+  float: left;
+  width: 0.8rem;
+}
+.detail p {
+  float: left;
+  width: 11rem;
+}

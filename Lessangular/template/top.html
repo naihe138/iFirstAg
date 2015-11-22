@@ -1,0 +1,32 @@
+<!--我要报名按钮-->
+<div class="iWant"><span class="btn">我要报名</span></div>
+<!--数量-->
+<div class="all">
+	<div class="num">
+		<p>已报名</p>
+		<span>123456</span>
+	</div>
+	<div class="num">
+		<p>投票人次</p>
+		<span>123456</span>
+	</div>
+	<div class="num">
+		<p>访问量</p>
+		<span>123456</span>
+	</div>
+</div>
+<!--搜索框-->
+<div class="search">
+	<div class="searchBox">
+		<input type="text" placeholder="名字或者编号" ng-model = "sVal" /><span ng-click = "searchFn()">搜索</span>
+	</div>
+</div>
+<div class="topBtn"><a href="">最新参赛</a><a href="" class="active" ng-click = "sortFn('uTicky')">投票排行</a><a href="">TOP300</a></div>
+<!--排行榜--> 
+<div class="topBox">
+	<table border="" cellspacing="" cellpadding="">
+		<tr><th>排名</th><th>编号</th><th>业主姓名</th><th>票数</th></tr>
+		<tr class="iTab" ng-repeat = "d in listData"><td>{{d.id}}</td><td>{{d.uNumber}}</td><td>{{d.uName}}</td><td>{{d.uTicky}}</td></tr>
+	</table>
+	
+</div>

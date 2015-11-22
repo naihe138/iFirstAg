@@ -1,0 +1,36 @@
+<div class="iWant"><span class="btn">我要报名</span></div>
+<div class="all">
+	<div class="num">
+		<p>已报名</p>
+		<span>1024</span>
+	</div>
+	<div class="num">
+		<p>投票人次</p>
+		<span>2547</span>
+	</div>
+	<div class="num">
+		<p>访问量</p>
+		<span>14752</span>
+	</div>
+</div>
+<div class="search">
+	<div class="searchBox">
+		<input type="text" placeholder="名字或者编号" ng-model = "sVal" /><span ng-click = "searchFn()">搜索</span>
+	</div>
+</div>
+<div class="topBtn"><a href="">最新参赛</a><a href="" class="active" ng-click = "sortFn('uTicky')">投票排行</a><a href="">TOP300</a></div>
+<ul class="iList">
+	<li ng-repeat = "data in listData" class="imgList">
+		<!--<img src="{{data.uImg}}" ng-click = "$location.path('detail/data.id')" />-->
+		<a href="#detail/{{data.id}}"><img src="{{data.uImg}}"/></a>
+		<p class="number"><span>{{data.uNumber}}</span>号</p>
+		<div class="ticky">
+			<div class="l">
+				<p><span>{{data.uName}}</span></p>
+				<p><span>{{data.uTicky}}</span>票</p>
+			</div>
+			<div class="r">投票</div>
+		</div>
+	</li>
+	
+</ul>

@@ -1,0 +1,35 @@
+/*页面切换*/
+.view-frame{
+	transition:1s;
+	-webkit-transition:1s;
+}
+.view-frame.ng-enter{
+	opacity: 0;
+	transform: translateY(200px);
+}
+.view-frame.ng-enter-active{
+	opacity: 1;
+	transform: translateY(0px);
+}
+.view-frame.ng-leave{
+	display: none;
+}
+/*列表切换*/
+.iTab{
+	transition: 0.5s;
+	-webkit-transition: 0.5s;
+}
+.iTab.ng-enter{
+	opacity: 0;
+}
+.iTab.ng-enter-active{
+	opacity: 1;
+}
+.iTab.ng-leave{
+	display: none;
+}
+.iTab.ng-enter-stagger{
+	animation-delay : 100ms;
+	-webkit-animation-delay : 100ms;
+}
+

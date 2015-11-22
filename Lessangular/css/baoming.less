@@ -1,0 +1,75 @@
+
+@import 'comment.less';
+/*这里是分割线~————————————————————————————————做完上面删了*/
+.content{
+    width: 13.125rem;
+    margin: 1.5rem auto;
+    padding: 0.5rem;
+    position: relative;
+    
+    h3{
+        text-align: center;
+        font-size: 1.25rem;
+        color: #fffcdb;
+        padding-bottom: 0.5rem;
+    }
+    .form{
+        .clearfix();
+        color: #FFFFFF;
+        margin-top: 0.5rem;
+        overflow: hidden;
+        .l{
+            font-size: 0.8rem;
+            float: left;
+            width: 4.5rem;
+            height: 1.2rem;
+            text-align: center;
+            font-weight: bold;
+        }
+        .r{
+            float: left;
+        }
+        input,textarea{
+            display: block;
+            width: 7.5rem;
+            height: 1.2rem;
+            font-size: 0.6rem;
+            border-radius: 10px;
+            padding-left: 0.25rem;
+        }
+        .upl{
+            height: 2.6rem;
+            span:nth-of-type(1){
+                color: @cyellow;
+            }
+            span:nth-of-type(2){
+                font-weight: normal;
+                font-size: 0.6rem;
+            }
+        }
+        .upr{
+            overflow: hidden;
+            width: 8rem;
+            .clearfix();
+            height: ;
+            img{
+                float: left;
+                width: 3.15rem;
+                height: 3.15rem;  
+                margin: 0 0 0.5rem 0.5rem;
+                border: 2px dashed #FFFFFF;
+            }
+        }
+        textarea{
+            height: 3rem;
+            padding: 0.25rem;
+        }
+    }
+    .tips{
+        text-align: center;
+        .px2px(font-size, 18);
+        color: #FFFFFF;
+        margin: 1rem 0;
+        
+    }
+}

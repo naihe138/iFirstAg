@@ -1,0 +1,98 @@
+
+.content {
+  width: 13.125rem;
+  margin: 1.5rem auto;
+  padding: 0.5rem;
+  position: relative;
+}
+.content h3 {
+  text-align: center;
+  font-size: 1.25rem;
+  color: #fffcdb;
+  padding-bottom: 0.5rem;
+}
+.content .form {
+  color: #FFFFFF;
+  margin-top: 0.5rem;
+  overflow: hidden;
+}
+.content .form:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.content .form .l {
+  font-size: 0.8rem;
+  float: left;
+  width: 4.5rem;
+  height: 1.2rem;
+  text-align: center;
+  font-weight: bold;
+}
+.content .form .r {
+  float: left;
+}
+.content .form input,
+.content .form textarea {
+  display: block;
+  width: 7.5rem;
+  height: 1.2rem;
+  font-size: 0.6rem;
+  border-radius: 10px;
+  padding-left: 0.25rem;
+}
+.content .form .upl {
+  height: 2.6rem;
+}
+.content .form .upl span:nth-of-type(1) {
+  color: #fff000;
+}
+.content .form .upl span:nth-of-type(2) {
+  font-weight: normal;
+  font-size: 0.6rem;
+}
+.content .form .upr {
+  overflow: hidden;
+  width: 8rem;
+  height: ;
+}
+.content .form .upr:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.content .form .upr img {
+  float: left;
+  width: 3.15rem;
+  height: 3.15rem;
+  margin: 0 0 0.5rem 0.5rem;
+  border: 2px dashed #FFFFFF;
+}
+.content .form textarea {
+  height: 3rem;
+  padding: 0.25rem;
+}
+.content .tips {
+  text-align: center;
+  font-size: 9px;
+  color: #FFFFFF;
+  margin: 1rem 0;
+}
+[data-dpr="1"] .content .tips {
+  font-size: 18px;
+}
+[data-dpr="2"] .content .tips {
+  font-size: 18px;
+}
+[data-dpr="2.5"] .content .tips {
+  font-size: 23px;
+}
+[data-dpr="2.75"] .content .tips {
+  font-size: 25px;
+}
+[data-dpr="3"] .content .tips {
+  font-size: 27px;
+}
+[data-dpr="4"] .content .tips {
+  font-size: 36px;
+}
